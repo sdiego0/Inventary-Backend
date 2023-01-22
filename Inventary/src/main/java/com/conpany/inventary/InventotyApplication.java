@@ -11,7 +11,7 @@ import org.apache.juli.logging.LogFactory;
 public class InventotyApplication implements CommandLineRunner{
 
 	@Autowired
-	private Log logger = LogFactory.getLog(InventotyApplication.class)
+	private Log logger = LogFactory.getLog(InventotyApplication.class);
 	
 	public static void main(String[] args) {
 		SpringApplication.run(InventotyApplication.class, args);
