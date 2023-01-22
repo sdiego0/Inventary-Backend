@@ -8,6 +8,7 @@ public class InventotyApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(InventotyApplication.class, args);
+		System.out.println("Todo bien");
 	}
 
 }
